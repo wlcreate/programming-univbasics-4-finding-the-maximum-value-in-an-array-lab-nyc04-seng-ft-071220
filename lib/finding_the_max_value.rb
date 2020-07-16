@@ -9,5 +9,6 @@ def find_max_value(array)
   max_value = -1
   while count < array.length do
     if max_value < array[count]
-      max_value = arr
+      max_value = array[count]
+    end
 end
