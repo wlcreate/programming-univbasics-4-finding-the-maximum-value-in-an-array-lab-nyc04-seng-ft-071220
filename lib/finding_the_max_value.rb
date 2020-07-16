@@ -10,3 +10,8 @@ def find_max_value(array)
   end
   max_value
 end
+
+def find_max_value(array)
+  sorted_array = array.sort
+  sorted_array.last
+end
